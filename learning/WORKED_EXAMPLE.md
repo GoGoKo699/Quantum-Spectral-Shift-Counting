@@ -40,7 +40,7 @@ For stages with inverse widths $1,2,4,8,16$, the combined inverse width is $\kap
 | 8 | 0.18684676 |
 | 16 | 0.09597747 |
 
-Rescaling the last probability gives $0.99993447$. The smoothing error bound is $\operatorname{erfc}(\kappa\gamma)\approx 0.00013105$, and estimation of this probability to sufficient additional accuracy recovers the integer one by rounding. The table checks the ideal filter and integration. The algorithm implements a finite grid, polynomial approximations, and a coherent estimator. [Spectral averaging](../science/spectral-averaging.md) · [Algorithm](../science/algorithm.md)
+Rescaling the last probability gives $0.99993447$. The smoothing error bound is $\mathrm{erfc}(\kappa\gamma)\approx 0.00013105$, and estimation of this probability to sufficient additional accuracy recovers the integer one by rounding. The table checks the ideal filter and integration. The algorithm implements a finite grid, polynomial approximations, and a coherent estimator. [Spectral averaging](../science/spectral-averaging.md) · [Algorithm](../science/algorithm.md)
 
 ## A signed update with a gapless reference
 

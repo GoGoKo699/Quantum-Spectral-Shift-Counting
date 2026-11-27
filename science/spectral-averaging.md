@@ -14,8 +14,8 @@ For a continuous $`f`$ on a neighborhood of the spectra and an antiderivative $`
 
 ~~~math
 \begin{aligned}
-\int_0^1\operatorname{Tr}(W^\dagger f(H_t)W)\,dt
- &=\operatorname{Tr}F(A_1)-\operatorname{Tr}F(A_0)\\
+\int_0^1\mathrm{Tr}(W^\dagger f(H_t)W)\,dt
+ &=\mathrm{Tr}F(A_1)-\mathrm{Tr}F(A_0)\\
  &=\int_{\mathbb R}f(x)\xi(x)\,dx .
 \end{aligned}
 ~~~
@@ -27,7 +27,7 @@ For polynomials the derivative follows from the product rule and cyclicity of tr
 For $`f(x)=e^{-\kappa^2 x^2}`$, define the probability and the smoothed count by
 
 ~~~math
-p_\kappa=\frac1m\int_0^1\operatorname{Tr}(W^\dagger e^{-\kappa^2H_t^2}W)\,dt,
+p_\kappa=\frac1m\int_0^1\mathrm{Tr}(W^\dagger e^{-\kappa^2H_t^2}W)\,dt,
 \qquad z_\kappa=\frac{\kappa m}{\sqrt\pi}p_\kappa.
 ~~~
 

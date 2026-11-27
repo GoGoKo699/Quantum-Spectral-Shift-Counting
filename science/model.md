@@ -13,7 +13,7 @@ B=A+V_+-V_-,
 
 For spectral positive and negative parts, choose full-column-rank factors so that $`r_\pm`$ are the sign ranks. The upper bounds also apply to a supplied decomposition with overlapping ranges, in terms of its supplied factor widths. Set $`r=r_++r_-\ge1`$ and $`s=\min(r_+,r_-)`$. A zero-width factor is omitted.
 
-Both endpoint spectra avoid $`(-\gamma,\gamma)`$ for a known $`0<\gamma\le1/4`$. Let $`n_<(H;x)=\operatorname{rank}{\bf1}_{(-\infty,x)}(H)`$. The output of the estimation task is a classical number $`\widehat k`$ satisfying
+Both endpoint spectra avoid $`(-\gamma,\gamma)`$ for a known $`0<\gamma\le1/4`$. Let $`n_<(H;x)=\mathrm{rank}{\bf1}_{(-\infty,x)}(H)`$. The output of the estimation task is a classical number $`\widehat k`$ satisfying
 
 ~~~math
 k=n_<(A;0)-n_<(B;0),\qquad
