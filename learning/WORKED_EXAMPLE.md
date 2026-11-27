@@ -10,7 +10,7 @@ w=\frac{1}{\sqrt 8}\begin{pmatrix}\sqrt 7\\1\end{pmatrix},\qquad
 H_t=A+tww^\dagger .
 ```
 
-The count of strictly negative eigenvalues of $A$ is one. The trace of $H_t$ is $t$, and its determinant is $-1/4+3t/8$. For $0\le t<2/3$, the negative determinant gives one negative and one positive eigenvalue. The determinant vanishes at $t=2/3$, where the second eigenvalue is $2/3$. For $2/3<t\le 1$, positive trace and determinant put both eigenvalues above zero.
+The count of strictly negative eigenvalues of $A$ is one. The trace of $H_t$ is $t$, and its determinant is $-1/4+3t/8$. For $0\le t\lt 2/3$, the negative determinant gives one negative and one positive eigenvalue. The determinant vanishes at $t=2/3$, where the second eigenvalue is $2/3$. For $2/3\lt t\le 1$, positive trace and determinant put both eigenvalues above zero.
 
 At the final matrix $B=H_1$, the eigenvalues are $(1-1/\sqrt 2)/2$ and $(1+1/\sqrt 2)/2$. The common endpoint gap is $\gamma=(1-1/\sqrt 2)/2$, and the net shift $k=n_-(A)-n_-(B)$ equals one. The matrices along the path vary in eigenvectors as well as eigenvalues since $A$ and $ww^\dagger$ have a nonzero commutator.
 
