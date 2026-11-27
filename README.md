@@ -12,7 +12,7 @@ For Hermitian endpoints $`A`$ and $`B`$, write the update as a positive part min
 
 The count includes multiplicities. For signed updates, upward and downward crossings contribute opposite signs. When the two sign ranks are comparable, deciding whether those contributions cancel can take order $`r/\gamma`$ queries up to logarithms. Exact integer counting follows from an estimate with error below half a level.
 
-The receiver uses the update factors to sample the spectral flow along two monotone paths. Coherent Gaussian filtering rejects off-threshold amplitude at progressively finer resolutions. Spectral averaging bounds the probability of reaching each finer stage. The two paths meet at an auxiliary matrix whose contribution cancels, so the gap assumption concerns the endpoints alone.
+The algorithm uses the update factors to sample the spectral flow along two monotone paths. Coherent Gaussian filtering rejects off-threshold amplitude at progressively finer resolutions. Spectral averaging bounds the probability of reaching each finer stage. The two paths meet at an auxiliary matrix whose contribution cancels, so the gap assumption concerns the endpoints alone.
 
 ## Read the science
 
@@ -26,6 +26,11 @@ The receiver uses the update factors to sample the spectral flow along two monot
 ## Learn and verify
 
 Start with the [learning route](learning/README.md), the [30 milestones](learning/MILESTONES.md), or the [science guide](science/README.md). See [verification](verification/README.md) for the executable checks and their expected results. These checks exercise finite matrices and filter circuits. The asymptotic bounds follow from the proofs.
+
+```sh
+python3 -m pip install -r verification/requirements.txt
+python3 verification/run_all.py
+```
 
 ## Purpose and contact
 

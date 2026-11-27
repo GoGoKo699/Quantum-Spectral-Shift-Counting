@@ -1,0 +1,16 @@
+# Quantum Spectral-Shift Counting
+
+> A quantum algorithm for finite-rank spectral shift and a tight query law for detecting net cancellation under signed perturbations.
+
+- [Overview](README.md): scientific question, main scaling and reading routes.
+- [Science guide](science/README.md): order of definitions, construction, converse and resource analysis.
+- [Model and theorems](science/model.md): precisions, the endpoint gap, signed count and coherent block-encoding access.
+- [Spectral averaging](science/spectral-averaging.md): weighted positive paths, Gaussian window and a shared reference for signed updates.
+- [Coherent algorithm](science/algorithm.md): stopping clocks, dyadic Gaussian circuit, variable-time estimation and the detection rule.
+- [Lower bounds](science/lower-bounds.md): weak oracle, Hamming-layer adversary and sign rank.
+- [Resources](science/resources.md): finite accuracy, effective blocks and gate accounting.
+- [Learning route](learning/README.md): Nielsen–Chuang bridge, worked examples and the 30 milestones.
+- [Attribution](references/related-work.md): spectral shift, inertia, quantum filtering and same-task comparison.
+- [Verification](verification/README.md): reproducible finite tests and their evidence boundary.
+
+The detection output concerns net endpoint inertia, with opposite signs for upward and downward crossings. The gap belongs to the endpoints. The query count uses supplied factor widths and constant normalization. Exact spectral sign factors identify those widths with sign ranks.
