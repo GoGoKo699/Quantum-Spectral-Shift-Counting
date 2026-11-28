@@ -1,0 +1,14 @@
+{
+  "README.md": [
+    "Run the spectral-shift estimator"
+  ],
+  "science/algorithm.md": [
+    "Path oracle",
+    "A finite Gaussian circuit",
+    "Stopping and survival",
+    "Detecting cancellation"
+  ],
+  "science/resources.md": [
+    "Gates and workspace"
+  ]
+}
